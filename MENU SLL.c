@@ -188,7 +188,7 @@ int main(){
 	printf("\n\nEnter the position  for Given Data. (Strating from 1) \n");
 	scanf("%d",&ipos);
 	
-	isl=count_list(f);
+	isl=count_list(f)+1;
 
 
           if(ipos>0 && ipos<=isl){
